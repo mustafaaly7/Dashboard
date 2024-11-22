@@ -1,4 +1,4 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+import { Box, Calendar, DollarSign, HeartPulseIcon, Home, Inbox, Phone, Search, Settings, Stethoscope } from "lucide-react"
 
 import {
   Sidebar,
@@ -14,29 +14,42 @@ import {
 // Menu items.
 const items = [
   {
-    title: "Home",
+    title: "Dashboard",
     url: "#",
     icon: Home,
   },
   {
-    title: "Inbox",
+    title: "Apointments",
     url: "#",
     icon: Inbox,
   },
   {
-    title: "Calendar",
+    title: "Patients",
     url: "#",
     icon: Calendar,
   },
   {
-    title: "Search",
+    title: "Doctors",
     url: "#",
-    icon: Search,
+    icon: HeartPulseIcon,
   },
   {
-    title: "Settings",
+    title: "Departments",
     url: "#",
-    icon: Settings,
+    icon: Stethoscope,
+  },
+  {
+    title: "Payment",
+    url: "#",
+    icon: DollarSign,
+  },  {
+    title: "Inventory",
+    url: "#",
+    icon: Box,
+  },  {
+    title: "Message",
+    url: "#",
+    icon: Phone,
   },
 ]
 
@@ -46,9 +59,10 @@ export function AppSidebar() {
         
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Application</SidebarGroupLabel>
+          <SidebarGroupLabel>WellNest</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
+              <div className=" my-5 flex flex-col justify-center items-center gap-5">
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
@@ -59,6 +73,7 @@ export function AppSidebar() {
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
+              </div>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>

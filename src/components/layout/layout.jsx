@@ -4,8 +4,8 @@ import Header from '../header'
 
 export default function Layout({ children }) {
   return (
-    <div L>
-        <Header />
+    <div >
+        <Header/>
     <SidebarProvider>
       <AppSidebar />
       <main className="w-full px-2">

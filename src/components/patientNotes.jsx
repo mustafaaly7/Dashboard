@@ -2,7 +2,7 @@
 
 export default function Patientnotes() {
     return (
-        <div className="max-w-[160px] p-4 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div className="max-w-[160px] p-4 bg-gray-100 border border-gray-200 rounded-lg shadow ">
         <a href="#">
           <p className="text-xs text-gray-700 dark:text-gray-400">
             January 15, 2023, at 10:45 AM

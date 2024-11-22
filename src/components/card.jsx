@@ -35,7 +35,7 @@ export function CardDemo({ className, ...props }) {
   return (
     <Card
       className={cn(
-        "w-full max-w-[380px]",
+        "w-full max-w-[380px] bg-gray-100",
         className
       )}
       {...props}

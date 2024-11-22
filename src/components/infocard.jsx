@@ -24,7 +24,7 @@ const infoCardDetail = {
 
 export function Infocard({ className, ...props }) {
     return (
-            <Card className={cn("w-full", className)} {...props}>
+            <Card className={cn("w-full bg-gray-100" , className)} {...props}>
                 <CardHeader>
                     <div className="flex justify-between">
                         <CardTitle className={"text-xl"}>General Info</CardTitle>
