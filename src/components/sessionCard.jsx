@@ -26,7 +26,7 @@ export default function SessionCard() {
             <div>
                 <div className=" my-2 bg-white border-opacity-75 p-6 rounded-lg">
                     <div className="flex flex-col gap-4">
-                   <div className="flex justify-between">
+                   <div className="flex justify-between flex-wrap">
                     <h3 className="text-gray-700 font-bold">Routine Checkup</h3>
                     <h4 className="p-1 bg-cyan-300 rounded text-sm">Confirmed</h4>
                    </div>
@@ -47,7 +47,7 @@ export default function SessionCard() {
                 {/* second card */}
                 <div className=" my-2 bg-white border-opacity-75 p-6 rounded-lg">
                     <div className="flex flex-col gap-4">
-                   <div className="flex justify-between">
+                   <div className="flex justify-between flex-wrap">
                     <h3 className="text-gray-700 font-bold">Blood Test </h3>
                     <h4 className="p-1 bg-blue-600  text-white rounded text-sm">Completed</h4>
                    </div>
