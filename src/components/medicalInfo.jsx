@@ -69,7 +69,7 @@ export default function MedicalinfoCard({ className, ...props }) {
             </CardTitle>
           </div>
         </CardHeader>
-        <CardContent className="grid gap-4">
+        <CardContent className=" gap-4">
           <div>
             <h1 className="text-lg font-medium">Medication</h1>
             <div className="w-auto my-2">

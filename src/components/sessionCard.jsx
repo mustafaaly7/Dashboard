@@ -25,11 +25,12 @@ export default function SessionCard() {
             {/* First card  */}
             <div>
                 <div className=" my-2 bg-white border-opacity-75 p-6 rounded-lg">
+                    <div className="flex flex-col gap-4">
                    <div className="flex justify-between">
                     <h3 className="text-gray-700 font-bold">Routine Checkup</h3>
-                    <h4 className="p-2 bg-cyan-400 rounded ">Confirmed</h4>
+                    <h4 className="p-1 bg-cyan-300 rounded text-sm">Confirmed</h4>
                    </div>
-                    <h2 className=" my-4 text-sm  font-medium title-font mb-2">
+                    <h2 className=" my-6 text-sm  font-medium title-font mb-2">
                         Summary : Advise the patient to engage in light excercise and monitor blood pressure weekly 
                     </h2>
                     <div className=" my-4 flex gap-2 items-center">
@@ -38,14 +39,17 @@ export default function SessionCard() {
                         Thursday 07- July -2028 -- 7:00 AM -- $97 
                     </h3>
                     </div>
+                    </div>
+                    
                 </div>
                 <h3 className="my-3 text-lg">04 May 2024</h3>
 
                 {/* second card */}
                 <div className=" my-2 bg-white border-opacity-75 p-6 rounded-lg">
+                    <div className="flex flex-col gap-4">
                    <div className="flex justify-between">
                     <h3 className="text-gray-700 font-bold">Blood Test </h3>
-                    <h4 className="p-2 bg-blue-800  text-white rounded ">Completed</h4>
+                    <h4 className="p-1 bg-blue-600  text-white rounded text-sm">Completed</h4>
                    </div>
                     <h1 className="my-4 text-xl font-bold">Dr.Emily will</h1>
                     <div className=" my-2 flex gap-2 items-center">
@@ -53,6 +57,7 @@ export default function SessionCard() {
                     <h3 className="leading-relaxed text-base">
                         Thursday 07- July -2028 -- 7:00 AM -- $97 
                     </h3>
+                    </div>
                     </div>
                 </div>
             </div>
